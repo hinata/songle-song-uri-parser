@@ -1,0 +1,13 @@
+[
+  {
+    "string": "sc://artist/track",
+    "result": {
+      "permalink": "http://soundcloud.com/artist/track",
+      "source_host": "soundcloud.com",
+      "source_path": "/artist/track",
+      "source_id": "artist/track",
+      "type": "sc",
+      "to_s": "https://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack"
+    }
+  }
+]

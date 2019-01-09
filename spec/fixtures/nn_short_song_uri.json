@@ -1,0 +1,13 @@
+[
+  {
+    "string": "http://nico.ms/sm12333424",
+    "result": {
+      "permalink": "http://www.nicovideo.jp/watch/sm12333424",
+      "source_host": "www.nicovideo.jp",
+      "source_path": "/watch/sm12333424",
+      "source_id": "sm12333424",
+      "type": "nn",
+      "to_s": "https://songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424"
+    }
+  }
+]

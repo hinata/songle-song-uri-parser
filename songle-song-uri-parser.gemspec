@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{The implementation of a Song URI parser of the Songle}
   spec.description   = %q{The implementation of a Song URI parser of the Songle}
-  spec.homepage      = "https://api.songle.jp"
+  spec.homepage      = "https://github.com/hinata/songle-song-uri-parser"
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.

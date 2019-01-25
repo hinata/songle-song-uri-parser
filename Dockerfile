@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-ARG RUBY_VERSION=2.6
+ARG RUBY_VERSION=2.6.0
 
-FROM ruby:${RUBY_VERSION}.0-alpine
+FROM ruby:${RUBY_VERSION}-alpine
 MAINTAINER Takahiro INOUE <takahiro.inoue@aist.go.jp>
 
 WORKDIR /work

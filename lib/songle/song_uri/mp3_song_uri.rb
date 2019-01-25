@@ -40,14 +40,14 @@ module ::Songle::SongURI
     end
 
     ##
-    # @function
+    # @method
     #
     def type
       return TYPE
     end
 
     ##
-    # @function
+    # @method
     #
     def to_s
       encoded_source_host =

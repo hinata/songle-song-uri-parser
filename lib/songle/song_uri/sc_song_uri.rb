@@ -16,7 +16,7 @@ module ::Songle::SongURI
     ##
     # @constant
     #
-    TYPE = "sc"
+    TYPE = "soundcloud"
 
     ##
     # @constant
@@ -39,7 +39,7 @@ module ::Songle::SongURI
     end
 
     ##
-    # @function
+    # @method
     #
     def type
       return TYPE

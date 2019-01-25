@@ -6,7 +6,7 @@
       "source_host": "soundcloud.com",
       "source_path": "/artist/track",
       "source_id": "artist/track",
-      "type": "sc",
+      "type": "soundcloud",
       "to_s": "https://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack"
     }
   }

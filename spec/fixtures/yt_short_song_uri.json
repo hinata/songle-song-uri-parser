@@ -6,7 +6,7 @@
       "source_host": "www.youtube.com",
       "source_path": "/watch?v=X-CYSe2AJS4",
       "source_id": "X-CYSe2AJS4",
-      "type": "yt",
+      "type": "youtube",
       "to_s": "https://songle.jp/songs/www.youtube.com%2Fwatch%3Fv%3DX-CYSe2AJS4"
     }
   }

@@ -40,28 +40,28 @@ module ::Songle
     end
 
     ##
-    # @function
+    # @method
     #
     def endpoint
       return "#{ self.endpoint_scheme }://#{ self.endpoint_host }#{ self.endpoint_path }"
     end
 
     ##
-    # @function
+    # @method
     #
     def permalink
       return "http://#{ self.source_host }#{ self.source_path }"
     end
 
     ##
-    # @function
+    # @method
     #
     def type
       return nil
     end
 
     ##
-    # @function
+    # @method
     #
     def to_s
       encoded_source_host =
@@ -75,12 +75,12 @@ module ::Songle
 
     class << self
       ##
-      # @function
+      # @method
       # @static
       #
       def parse string, options = nil
         string =
-          ::URI.decode_www_form_component(string)
+          ::URI.decode_www_form_component(string.to_s)
 
         case
         when string =~ ::Songle::SongURI::NnSongURI::URI_REGEX
@@ -99,6 +99,8 @@ module ::Songle
           return ::Songle::SongURI::YtSchemeSongURI.new(string, options)
         when string =~ ::Songle::SongURI::YtShortSongURI::URI_REGEX
           return ::Songle::SongURI::YtShortSongURI.new(string, options)
+        when string =~ ::Songle::SongURI::NumericSongURI::URI_REGEX
+          return ::Songle::SongURI::NumericSongURI.new(string, options)
         else
           return ::Songle::SongURI::Mp3SongURI.new(string, options)
         end

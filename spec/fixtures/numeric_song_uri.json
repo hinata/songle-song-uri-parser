@@ -1,0 +1,24 @@
+[
+  {
+    "string": "https://songle.jp/songs/4042",
+    "result": {
+      "permalink": "http://",
+      "source_host": null,
+      "source_path": null,
+      "source_id": "4042",
+      "type": "numeric",
+      "to_s": "https://songle.jp/songs/4042"
+    }
+  },
+  {
+    "string": "4042",
+    "result": {
+      "permalink": "http://",
+      "source_host": null,
+      "source_path": null,
+      "source_id": "4042",
+      "type": "numeric",
+      "to_s": "https://songle.jp/songs/4042"
+    }
+  }
+]

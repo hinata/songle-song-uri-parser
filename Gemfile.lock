@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    songle-song-uri-parser (0.0.3)
+    songle-song-uri-parser (1.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -26,10 +26,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.16)
+  bundler (~> 1.0)
   rake (~> 10.0)
   rspec (~> 3.0)
   songle-song-uri-parser!
 
 BUNDLED WITH
-   1.17.0
+   1.17.2

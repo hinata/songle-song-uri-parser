@@ -41,7 +41,7 @@ module ::Songle::SongURI
     end
 
     ##
-    # @function
+    # @method
     #
     def type
       return TYPE

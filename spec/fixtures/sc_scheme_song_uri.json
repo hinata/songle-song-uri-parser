@@ -1,6 +1,6 @@
 [
   {
-    "string": "sc://artist/track",
+    "query": "sc://artist/track",
     "result": {
       "permalink": "http://soundcloud.com/artist/track",
       "source_host": "soundcloud.com",

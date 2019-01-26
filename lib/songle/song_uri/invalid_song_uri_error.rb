@@ -4,8 +4,8 @@ module ::Songle::SongURI
     ##
     # @constructor
     #
-    def initialize string
-      super("'#{ string }' isn't song uri.")
+    def initialize query
+      super("'#{ query }' isn't song uri.")
     end
   end
 end

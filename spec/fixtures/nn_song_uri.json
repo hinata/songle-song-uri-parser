@@ -1,6 +1,6 @@
 [
   {
-    "string": "http://songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424",
+    "query": "http://songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424",
     "result": {
       "permalink": "http://www.nicovideo.jp/watch/sm12333424",
       "source_host": "www.nicovideo.jp",
@@ -11,7 +11,7 @@
     }
   },
   {
-    "string": "http://nicovideo.jp/watch/sm12333424",
+    "query": "http://nicovideo.jp/watch/sm12333424",
     "result": {
       "permalink": "http://www.nicovideo.jp/watch/sm12333424",
       "source_host": "www.nicovideo.jp",
@@ -22,7 +22,7 @@
     }
   },
   {
-    "string": "http://www.nicovideo.jp/watch/sm12333424",
+    "query": "http://www.nicovideo.jp/watch/sm12333424",
     "result": {
       "permalink": "http://www.nicovideo.jp/watch/sm12333424",
       "source_host": "www.nicovideo.jp",
@@ -33,7 +33,7 @@
     }
   },
   {
-    "string": "http://xyz.nicovideo.jp/watch/sm12333424",
+    "query": "http://xyz.nicovideo.jp/watch/sm12333424",
     "result": {
       "permalink": "http://www.nicovideo.jp/watch/sm12333424",
       "source_host": "www.nicovideo.jp",

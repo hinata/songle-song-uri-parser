@@ -16,12 +16,12 @@ module ::Songle::SongURI
     ##
     # @constructor
     #
-    def initialize string, options
-      super(string, options)
+    def initialize query, options
+      super(query, options)
 
       @source_host = nil
       @source_path = nil
-      @source_id   = $3 if string =~ URI_REGEX
+      @source_id   = $3 if query =~ URI_REGEX
     end
 
     ##

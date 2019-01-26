@@ -1,6 +1,6 @@
 [
   {
-    "string": "http://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack",
+    "query": "http://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack",
     "result": {
       "permalink": "http://soundcloud.com/artist/track",
       "source_host": "soundcloud.com",
@@ -11,7 +11,7 @@
     }
   },
   {
-    "string": "http://soundcloud.com/artist/track",
+    "query": "http://soundcloud.com/artist/track",
     "result": {
       "permalink": "http://soundcloud.com/artist/track",
       "source_host": "soundcloud.com",
@@ -22,7 +22,7 @@
     }
   },
   {
-    "string": "http://www.soundcloud.com/artist/track",
+    "query": "http://www.soundcloud.com/artist/track",
     "result": {
       "permalink": "http://soundcloud.com/artist/track",
       "source_host": "soundcloud.com",
@@ -33,7 +33,7 @@
     }
   },
   {
-    "string": "http://xyz.soundcloud.com/artist/track",
+    "query": "http://xyz.soundcloud.com/artist/track",
     "result": {
       "permalink": "http://soundcloud.com/artist/track",
       "source_host": "soundcloud.com",

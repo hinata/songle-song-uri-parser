@@ -1,6 +1,6 @@
 [
   {
-    "string": "http://songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3",
+    "query": "http://songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3",
     "result": {
       "permalink": "http://staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3",
       "source_host": "staff.aist.go.jp",
@@ -11,7 +11,7 @@
     }
   },
   {
-    "string": "http://staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3",
+    "query": "http://staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3",
     "result": {
       "permalink": "http://staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3",
       "source_host": "staff.aist.go.jp",

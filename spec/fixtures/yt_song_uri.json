@@ -1,6 +1,6 @@
 [
   {
-    "string": "http://songle.jp/songs/www.youtube.com%2Fwatch%3Fv=X-CYSe2AJS4",
+    "query": "http://songle.jp/songs/www.youtube.com%2Fwatch%3Fv=X-CYSe2AJS4",
     "result": {
       "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
       "source_host": "www.youtube.com",
@@ -11,7 +11,7 @@
     }
   },
   {
-    "string": "http://youtube.com/watch?v=X-CYSe2AJS4",
+    "query": "http://youtube.com/watch?v=X-CYSe2AJS4",
     "result": {
       "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
       "source_host": "www.youtube.com",
@@ -22,7 +22,7 @@
     }
   },
   {
-    "string": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
+    "query": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
     "result": {
       "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
       "source_host": "www.youtube.com",
@@ -33,7 +33,7 @@
     }
   },
   {
-    "string": "http://xyz.youtube.com/watch?v=X-CYSe2AJS4",
+    "query": "http://xyz.youtube.com/watch?v=X-CYSe2AJS4",
     "result": {
       "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
       "source_host": "www.youtube.com",

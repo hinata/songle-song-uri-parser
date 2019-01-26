@@ -16,23 +16,23 @@ module ::Songle::SongURI
     ##
     # @constructor
     #
-    def initialize string, options
-      super(string, options)
+    def initialize query, options
+      super(query, options)
 
-      if string =~ URI_REGEX
-        string = $3
+      if query =~ URI_REGEX
+        query = $3
       end
 
-      if string =~ /^#{ self.endpoint_host }(.+)$/
-        string = $1
+      if query =~ /^#{ self.endpoint_host }(.+)$/
+        query = $1
       end
 
-      if string =~ /^#{ self.endpoint_path }(.+)$/
-        string = $1
+      if query =~ /^#{ self.endpoint_path }(.+)$/
+        query = $1
       end
 
       source_uri =
-        ::URI.parse("//#{ string }")
+        ::URI.parse("//#{ query }")
 
       @source_host = source_uri.host
       @source_path = source_uri.path

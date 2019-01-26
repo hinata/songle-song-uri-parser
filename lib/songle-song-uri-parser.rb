@@ -13,5 +13,5 @@ require "songle/song_uri/yt_short_song_uri"
 require "songle/song_uri/invalid_song_uri_error"
 
 module ::SongleSongURIParser
-  VERSION = "1.1.0"
+  VERSION = "1.1.1"
 end

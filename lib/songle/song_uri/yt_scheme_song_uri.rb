@@ -26,15 +26,15 @@ module ::Songle::SongURI
     ##
     # @constructor
     #
-    def initialize string, options
-      super(string, options)
+    def initialize query, options
+      super(query, options)
 
       @source_host = SOURCE_HOST
       @source_path = SOURCE_PATH
-      @source_id   = $1 if string =~ URI_REGEX
+      @source_id   = $1 if query =~ URI_REGEX
 
       if @source_id.nil? || @source_id.strip.empty?
-        raise ::Songle::SongURI::InvalidSongURIError.new(string)
+        raise ::Songle::SongURI::InvalidSongURIError.new(query)
       end
 
       @source_path += @source_id

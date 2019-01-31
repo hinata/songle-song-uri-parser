@@ -42,7 +42,7 @@ require "json"
 
     test_cases.each do | test_case |
       song_uri =
-        ::Songle::SongURI.parse(test_case[ "query" ])
+        ::Songle::SongURI.parse(test_case[ "query_string" ])
 
       test_case[ "result" ].each do | method, result |
         it do

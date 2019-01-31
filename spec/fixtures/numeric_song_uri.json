@@ -1,6 +1,6 @@
 [
   {
-    "query": "https://songle.jp/songs/4042",
+    "query_string": "https://songle.jp/songs/4042",
     "result": {
       "permalink": "http://",
       "source_host": null,
@@ -11,7 +11,7 @@
     }
   },
   {
-    "query": "4042",
+    "query_string": "4042",
     "result": {
       "permalink": "http://",
       "source_host": null,

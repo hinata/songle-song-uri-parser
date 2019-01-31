@@ -1,6 +1,6 @@
 [
   {
-    "query": "yt://X-CYSe2AJS4",
+    "query_string": "yt://X-CYSe2AJS4",
     "result": {
       "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
       "source_host": "www.youtube.com",

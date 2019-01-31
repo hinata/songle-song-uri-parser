@@ -26,7 +26,7 @@ module ::Songle
     ##
     # @constructor
     #
-    def initialize query, options = nil
+    def initialize options = nil
       options ||= {}
 
       @endpoint_scheme =
@@ -78,31 +78,31 @@ module ::Songle
       # @method
       # @static
       #
-      def parse query, options = nil
-        query =
-          ::URI.decode_www_form_component(query.to_s)
+      def parse query_string, options = nil
+        query_string =
+          ::URI.decode_www_form_component(query_string.to_s)
 
         case
-        when query =~ ::Songle::SongURI::NnSongURI::URI_REGEX
-          return ::Songle::SongURI::NnSongURI.new(query, options)
-        when query =~ ::Songle::SongURI::NnSchemeSongURI::URI_REGEX
-          return ::Songle::SongURI::NnSchemeSongURI.new(query, options)
-        when query =~ ::Songle::SongURI::NnShortSongURI::URI_REGEX
-          return ::Songle::SongURI::NnShortSongURI.new(query, options)
-        when query =~ ::Songle::SongURI::ScSongURI::URI_REGEX
-          return ::Songle::SongURI::ScSongURI.new(query, options)
-        when query =~ ::Songle::SongURI::ScSchemeSongURI::URI_REGEX
-          return ::Songle::SongURI::ScSchemeSongURI.new(query, options)
-        when query =~ ::Songle::SongURI::YtSongURI::URI_REGEX
-          return ::Songle::SongURI::YtSongURI.new(query, options)
-        when query =~ ::Songle::SongURI::YtSchemeSongURI::URI_REGEX
-          return ::Songle::SongURI::YtSchemeSongURI.new(query, options)
-        when query =~ ::Songle::SongURI::YtShortSongURI::URI_REGEX
-          return ::Songle::SongURI::YtShortSongURI.new(query, options)
-        when query =~ ::Songle::SongURI::NumericSongURI::URI_REGEX
-          return ::Songle::SongURI::NumericSongURI.new(query, options)
+        when query_string =~ ::Songle::SongURI::NnSongURI::URI_REGEX
+          return ::Songle::SongURI::NnSongURI.new(query_string, options)
+        when query_string =~ ::Songle::SongURI::NnSchemeSongURI::URI_REGEX
+          return ::Songle::SongURI::NnSchemeSongURI.new(query_string, options)
+        when query_string =~ ::Songle::SongURI::NnShortSongURI::URI_REGEX
+          return ::Songle::SongURI::NnShortSongURI.new(query_string, options)
+        when query_string =~ ::Songle::SongURI::ScSongURI::URI_REGEX
+          return ::Songle::SongURI::ScSongURI.new(query_string, options)
+        when query_string =~ ::Songle::SongURI::ScSchemeSongURI::URI_REGEX
+          return ::Songle::SongURI::ScSchemeSongURI.new(query_string, options)
+        when query_string =~ ::Songle::SongURI::YtSongURI::URI_REGEX
+          return ::Songle::SongURI::YtSongURI.new(query_string, options)
+        when query_string =~ ::Songle::SongURI::YtSchemeSongURI::URI_REGEX
+          return ::Songle::SongURI::YtSchemeSongURI.new(query_string, options)
+        when query_string =~ ::Songle::SongURI::YtShortSongURI::URI_REGEX
+          return ::Songle::SongURI::YtShortSongURI.new(query_string, options)
+        when query_string =~ ::Songle::SongURI::NumericSongURI::URI_REGEX
+          return ::Songle::SongURI::NumericSongURI.new(query_string, options)
         else
-          return ::Songle::SongURI::Mp3SongURI.new(query, options)
+          return ::Songle::SongURI::Mp3SongURI.new(query_string, options)
         end
       end
     end

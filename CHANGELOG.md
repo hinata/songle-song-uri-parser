@@ -1,5 +1,8 @@
 # CHANGELOG.md
 
+## v1.1.3 (2019-02-06)
+- Updated README.md
+
 ## v1.1.2 (2019-01-31)
 - Changed constractor parameters in `::Songle::SongURI` class
 - Improved about loading module

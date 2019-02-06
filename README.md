@@ -2,7 +2,7 @@
 
 ## What is a Song URI?
 
-A [Song URI](//songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3) is an unique song ID of managed by the [Songle](//songle.jp).
+A [Song URI](//songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3) is an unique song ID that is managed by the [Songle](//songle.jp).
 
 This gem package can parse it.
 
@@ -24,11 +24,11 @@ $ gem install songle-song-uri-parser
 require "songle-song-uri-parser"
 
 song =
-  ::Songle::SongURI.parse("http://songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3")
+  ::Songle::SongURI.parse("https://staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3")
 
-p song.permalink #=> "http://staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3"
+p song.permalink #=> "https://staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3"
 p song.type      #=> "mp3"
-p song.to_s      #=> "http://songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3"
+p song.to_s      #=> "https://songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3"
 ```
 
 ## Development

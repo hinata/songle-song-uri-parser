@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Takahiro INOUE"]
   spec.email         = ["takahiro.inoue@aist.go.jp"]
 
-  spec.summary       = %q{The implementation of a Song URI parser of the Songle}
-  spec.description   = %q{The implementation of a Song URI parser of the Songle}
+  spec.summary       = %q{A Song URI parser for the Songle}
+  spec.description   = %q{A Song URI parser for the Songle}
   spec.homepage      = "https://github.com/hinata/songle-song-uri-parser"
   spec.license       = "MIT"
 

@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#@# vim: set filetype=ruby:
 module ::Songle::SongURI
   class YtSongURI
     include ::Songle::SongURI
@@ -21,7 +21,7 @@ module ::Songle::SongURI
     ##
     # @constant
     #
-    URI_REGEX = /#{ SOURCE_HOST.gsub("www.", "") }(#{ SOURCE_PATH.gsub("?", "\\?") }(.+))/
+    URI_REGEXP = /#{ SOURCE_HOST.gsub("www.", "") }(#{ SOURCE_PATH.gsub("?", "\\?") }(.+))/
 
     ##
     # @constructor
@@ -30,8 +30,8 @@ module ::Songle::SongURI
       super(options)
 
       @source_host = SOURCE_HOST
-      @source_path = $1 if query_string =~ URI_REGEX
-      @source_id   = $2 if query_string =~ URI_REGEX
+      @source_path = $1 if query_string =~ URI_REGEXP
+      @source_id   = $2 if query_string =~ URI_REGEXP
 
       if @source_id.nil? || @source_id.strip.empty?
         raise ::Songle::SongURI::InvalidSongURIError.new(query_string)

@@ -1,6 +1,61 @@
 [
   {
+    "query_string": "songle.jp/songs/www.youtube.com%2Fwatch%3Fv=X-CYSe2AJS4",
+    "result": {
+      "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
+      "source_host": "www.youtube.com",
+      "source_path": "/watch?v=X-CYSe2AJS4",
+      "source_id": "X-CYSe2AJS4",
+      "type": "youtube",
+      "to_s": "https://songle.jp/songs/www.youtube.com%2Fwatch%3Fv%3DX-CYSe2AJS4"
+    }
+  },
+  {
+    "query_string": "//songle.jp/songs/www.youtube.com%2Fwatch%3Fv=X-CYSe2AJS4",
+    "result": {
+      "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
+      "source_host": "www.youtube.com",
+      "source_path": "/watch?v=X-CYSe2AJS4",
+      "source_id": "X-CYSe2AJS4",
+      "type": "youtube",
+      "to_s": "https://songle.jp/songs/www.youtube.com%2Fwatch%3Fv%3DX-CYSe2AJS4"
+    }
+  },
+  {
     "query_string": "http://songle.jp/songs/www.youtube.com%2Fwatch%3Fv=X-CYSe2AJS4",
+    "result": {
+      "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
+      "source_host": "www.youtube.com",
+      "source_path": "/watch?v=X-CYSe2AJS4",
+      "source_id": "X-CYSe2AJS4",
+      "type": "youtube",
+      "to_s": "https://songle.jp/songs/www.youtube.com%2Fwatch%3Fv%3DX-CYSe2AJS4"
+    }
+  },
+  {
+    "query_string": "https://songle.jp/songs/www.youtube.com%2Fwatch%3Fv=X-CYSe2AJS4",
+    "result": {
+      "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
+      "source_host": "www.youtube.com",
+      "source_path": "/watch?v=X-CYSe2AJS4",
+      "source_id": "X-CYSe2AJS4",
+      "type": "youtube",
+      "to_s": "https://songle.jp/songs/www.youtube.com%2Fwatch%3Fv%3DX-CYSe2AJS4"
+    }
+  },
+  {
+    "query_string": "youtube.com/watch?v=X-CYSe2AJS4",
+    "result": {
+      "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
+      "source_host": "www.youtube.com",
+      "source_path": "/watch?v=X-CYSe2AJS4",
+      "source_id": "X-CYSe2AJS4",
+      "type": "youtube",
+      "to_s": "https://songle.jp/songs/www.youtube.com%2Fwatch%3Fv%3DX-CYSe2AJS4"
+    }
+  },
+  {
+    "query_string": "//youtube.com/watch?v=X-CYSe2AJS4",
     "result": {
       "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
       "source_host": "www.youtube.com",
@@ -22,6 +77,39 @@
     }
   },
   {
+    "query_string": "https://youtube.com/watch?v=X-CYSe2AJS4",
+    "result": {
+      "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
+      "source_host": "www.youtube.com",
+      "source_path": "/watch?v=X-CYSe2AJS4",
+      "source_id": "X-CYSe2AJS4",
+      "type": "youtube",
+      "to_s": "https://songle.jp/songs/www.youtube.com%2Fwatch%3Fv%3DX-CYSe2AJS4"
+    }
+  },
+  {
+    "query_string": "www.youtube.com/watch?v=X-CYSe2AJS4",
+    "result": {
+      "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
+      "source_host": "www.youtube.com",
+      "source_path": "/watch?v=X-CYSe2AJS4",
+      "source_id": "X-CYSe2AJS4",
+      "type": "youtube",
+      "to_s": "https://songle.jp/songs/www.youtube.com%2Fwatch%3Fv%3DX-CYSe2AJS4"
+    }
+  },
+  {
+    "query_string": "//www.youtube.com/watch?v=X-CYSe2AJS4",
+    "result": {
+      "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
+      "source_host": "www.youtube.com",
+      "source_path": "/watch?v=X-CYSe2AJS4",
+      "source_id": "X-CYSe2AJS4",
+      "type": "youtube",
+      "to_s": "https://songle.jp/songs/www.youtube.com%2Fwatch%3Fv%3DX-CYSe2AJS4"
+    }
+  },
+  {
     "query_string": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
     "result": {
       "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
@@ -33,7 +121,51 @@
     }
   },
   {
+    "query_string": "https://www.youtube.com/watch?v=X-CYSe2AJS4",
+    "result": {
+      "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
+      "source_host": "www.youtube.com",
+      "source_path": "/watch?v=X-CYSe2AJS4",
+      "source_id": "X-CYSe2AJS4",
+      "type": "youtube",
+      "to_s": "https://songle.jp/songs/www.youtube.com%2Fwatch%3Fv%3DX-CYSe2AJS4"
+    }
+  },
+  {
+    "query_string": "xyz.youtube.com/watch?v=X-CYSe2AJS4",
+    "result": {
+      "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
+      "source_host": "www.youtube.com",
+      "source_path": "/watch?v=X-CYSe2AJS4",
+      "source_id": "X-CYSe2AJS4",
+      "type": "youtube",
+      "to_s": "https://songle.jp/songs/www.youtube.com%2Fwatch%3Fv%3DX-CYSe2AJS4"
+    }
+  },
+  {
+    "query_string": "//xyz.youtube.com/watch?v=X-CYSe2AJS4",
+    "result": {
+      "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
+      "source_host": "www.youtube.com",
+      "source_path": "/watch?v=X-CYSe2AJS4",
+      "source_id": "X-CYSe2AJS4",
+      "type": "youtube",
+      "to_s": "https://songle.jp/songs/www.youtube.com%2Fwatch%3Fv%3DX-CYSe2AJS4"
+    }
+  },
+  {
     "query_string": "http://xyz.youtube.com/watch?v=X-CYSe2AJS4",
+    "result": {
+      "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
+      "source_host": "www.youtube.com",
+      "source_path": "/watch?v=X-CYSe2AJS4",
+      "source_id": "X-CYSe2AJS4",
+      "type": "youtube",
+      "to_s": "https://songle.jp/songs/www.youtube.com%2Fwatch%3Fv%3DX-CYSe2AJS4"
+    }
+  },
+  {
+    "query_string": "https://xyz.youtube.com/watch?v=X-CYSe2AJS4",
     "result": {
       "permalink": "http://www.youtube.com/watch?v=X-CYSe2AJS4",
       "source_host": "www.youtube.com",

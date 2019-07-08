@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#@# vim: set filetype=ruby:
 require "songle/song_uri"
 
 require "songle/song_uri/invalid_song_uri_error"

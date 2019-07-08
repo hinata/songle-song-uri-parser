@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#@# vim: set filetype=ruby:
 module ::Songle::SongURI
   class YtShortSongURI
     include ::Songle::SongURI
@@ -21,7 +21,7 @@ module ::Songle::SongURI
     ##
     # @constant
     #
-    URI_REGEX = /\/\/youtu\.be\/(.+)$/
+    URI_REGEXP = /youtu\.be\/(.+)$/
 
     ##
     # @constructor
@@ -31,7 +31,7 @@ module ::Songle::SongURI
 
       @source_host = SOURCE_HOST
       @source_path = SOURCE_PATH
-      @source_id   = $1 if query_string =~ URI_REGEX
+      @source_id   = $1 if query_string =~ URI_REGEXP
 
       if @source_id.nil? || @source_id.strip.empty?
         raise ::Songle::SongURI::InvalidSongURIError.new(query_string)

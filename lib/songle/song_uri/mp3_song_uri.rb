@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#@# vim: set filetype=ruby:
 module ::Songle::SongURI
   class Mp3SongURI
     include ::Songle::SongURI
@@ -11,7 +11,7 @@ module ::Songle::SongURI
     ##
     # @constant
     #
-    URI_REGEX = /^(\/\/|http(|s):\/\/)(.+)$/
+    URI_REGEXP = /^(\/\/|http(|s):\/\/)(.+)$/
 
     ##
     # @constructor
@@ -19,15 +19,11 @@ module ::Songle::SongURI
     def initialize query_string, options
       super(options)
 
-      if query_string =~ URI_REGEX
+      if query_string =~ URI_REGEXP
         query_string = $3
       end
 
-      if query_string =~ /^#{ self.endpoint_host }(.+)$/
-        query_string = $1
-      end
-
-      if query_string =~ /^#{ self.endpoint_path }(.+)$/
+      if query_string =~ /#{ self.endpoint_host }#{ self.endpoint_path }(.+)/
         query_string = $1
       end
 
@@ -37,6 +33,10 @@ module ::Songle::SongURI
       @source_host = source_uri.host
       @source_path = source_uri.path
       @source_id   = nil
+
+      if source_uri.query
+        @source_path += "?#{ source_uri.query }"
+      end
     end
 
     ##

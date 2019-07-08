@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#@# vim: set filetype=ruby:
 module ::Songle
   module SongURI
     attr_reader :endpoint_scheme
@@ -83,23 +83,23 @@ module ::Songle
           ::URI.decode_www_form_component(query_string.to_s)
 
         case
-        when query_string =~ ::Songle::SongURI::NnSongURI::URI_REGEX
+        when query_string =~ ::Songle::SongURI::NnSongURI::URI_REGEXP
           return ::Songle::SongURI::NnSongURI.new(query_string, options)
-        when query_string =~ ::Songle::SongURI::NnSchemeSongURI::URI_REGEX
+        when query_string =~ ::Songle::SongURI::NnSchemeSongURI::URI_REGEXP
           return ::Songle::SongURI::NnSchemeSongURI.new(query_string, options)
-        when query_string =~ ::Songle::SongURI::NnShortSongURI::URI_REGEX
+        when query_string =~ ::Songle::SongURI::NnShortSongURI::URI_REGEXP
           return ::Songle::SongURI::NnShortSongURI.new(query_string, options)
-        when query_string =~ ::Songle::SongURI::ScSongURI::URI_REGEX
+        when query_string =~ ::Songle::SongURI::ScSongURI::URI_REGEXP
           return ::Songle::SongURI::ScSongURI.new(query_string, options)
-        when query_string =~ ::Songle::SongURI::ScSchemeSongURI::URI_REGEX
+        when query_string =~ ::Songle::SongURI::ScSchemeSongURI::URI_REGEXP
           return ::Songle::SongURI::ScSchemeSongURI.new(query_string, options)
-        when query_string =~ ::Songle::SongURI::YtSongURI::URI_REGEX
+        when query_string =~ ::Songle::SongURI::YtSongURI::URI_REGEXP
           return ::Songle::SongURI::YtSongURI.new(query_string, options)
-        when query_string =~ ::Songle::SongURI::YtSchemeSongURI::URI_REGEX
+        when query_string =~ ::Songle::SongURI::YtSchemeSongURI::URI_REGEXP
           return ::Songle::SongURI::YtSchemeSongURI.new(query_string, options)
-        when query_string =~ ::Songle::SongURI::YtShortSongURI::URI_REGEX
+        when query_string =~ ::Songle::SongURI::YtShortSongURI::URI_REGEXP
           return ::Songle::SongURI::YtShortSongURI.new(query_string, options)
-        when query_string =~ ::Songle::SongURI::NumericSongURI::URI_REGEX
+        when query_string =~ ::Songle::SongURI::NumericSongURI::URI_REGEXP
           return ::Songle::SongURI::NumericSongURI.new(query_string, options)
         else
           return ::Songle::SongURI::Mp3SongURI.new(query_string, options)

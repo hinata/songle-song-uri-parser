@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#@# vim: set filetype=ruby:
 module ::Songle::SongURI
   class NumericSongURI
     include ::Songle::SongURI
@@ -11,7 +11,7 @@ module ::Songle::SongURI
     ##
     # @constant
     #
-    URI_REGEX = /^(|\/\/[\w.]+\/[\w.]+\/|http(|s):\/\/[\w.]+\/[\w.]+\/)(\d+)$/
+    URI_REGEXP = /^(|[\w.]+\/[\w.]+\/|\/\/[\w.]+\/[\w.]+\/|http(|s):\/\/[\w.]+\/[\w.]+\/)(\d+)$/
 
     ##
     # @constructor
@@ -21,7 +21,7 @@ module ::Songle::SongURI
 
       @source_host = nil
       @source_path = nil
-      @source_id   = $3 if query_string =~ URI_REGEX
+      @source_id   = $3 if query_string =~ URI_REGEXP
     end
 
     ##

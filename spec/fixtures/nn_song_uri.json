@@ -1,6 +1,61 @@
 [
   {
+    "query_string": "songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424",
+    "result": {
+      "permalink": "http://www.nicovideo.jp/watch/sm12333424",
+      "source_host": "www.nicovideo.jp",
+      "source_path": "/watch/sm12333424",
+      "source_id": "sm12333424",
+      "type": "niconico",
+      "to_s": "https://songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424"
+    }
+  },
+  {
+    "query_string": "//songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424",
+    "result": {
+      "permalink": "http://www.nicovideo.jp/watch/sm12333424",
+      "source_host": "www.nicovideo.jp",
+      "source_path": "/watch/sm12333424",
+      "source_id": "sm12333424",
+      "type": "niconico",
+      "to_s": "https://songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424"
+    }
+  },
+  {
     "query_string": "http://songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424",
+    "result": {
+      "permalink": "http://www.nicovideo.jp/watch/sm12333424",
+      "source_host": "www.nicovideo.jp",
+      "source_path": "/watch/sm12333424",
+      "source_id": "sm12333424",
+      "type": "niconico",
+      "to_s": "https://songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424"
+    }
+  },
+  {
+    "query_string": "https://songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424",
+    "result": {
+      "permalink": "http://www.nicovideo.jp/watch/sm12333424",
+      "source_host": "www.nicovideo.jp",
+      "source_path": "/watch/sm12333424",
+      "source_id": "sm12333424",
+      "type": "niconico",
+      "to_s": "https://songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424"
+    }
+  },
+  {
+    "query_string": "nicovideo.jp/watch/sm12333424",
+    "result": {
+      "permalink": "http://www.nicovideo.jp/watch/sm12333424",
+      "source_host": "www.nicovideo.jp",
+      "source_path": "/watch/sm12333424",
+      "source_id": "sm12333424",
+      "type": "niconico",
+      "to_s": "https://songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424"
+    }
+  },
+  {
+    "query_string": "//nicovideo.jp/watch/sm12333424",
     "result": {
       "permalink": "http://www.nicovideo.jp/watch/sm12333424",
       "source_host": "www.nicovideo.jp",
@@ -22,6 +77,39 @@
     }
   },
   {
+    "query_string": "https://nicovideo.jp/watch/sm12333424",
+    "result": {
+      "permalink": "http://www.nicovideo.jp/watch/sm12333424",
+      "source_host": "www.nicovideo.jp",
+      "source_path": "/watch/sm12333424",
+      "source_id": "sm12333424",
+      "type": "niconico",
+      "to_s": "https://songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424"
+    }
+  },
+  {
+    "query_string": "www.nicovideo.jp/watch/sm12333424",
+    "result": {
+      "permalink": "http://www.nicovideo.jp/watch/sm12333424",
+      "source_host": "www.nicovideo.jp",
+      "source_path": "/watch/sm12333424",
+      "source_id": "sm12333424",
+      "type": "niconico",
+      "to_s": "https://songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424"
+    }
+  },
+  {
+    "query_string": "//www.nicovideo.jp/watch/sm12333424",
+    "result": {
+      "permalink": "http://www.nicovideo.jp/watch/sm12333424",
+      "source_host": "www.nicovideo.jp",
+      "source_path": "/watch/sm12333424",
+      "source_id": "sm12333424",
+      "type": "niconico",
+      "to_s": "https://songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424"
+    }
+  },
+  {
     "query_string": "http://www.nicovideo.jp/watch/sm12333424",
     "result": {
       "permalink": "http://www.nicovideo.jp/watch/sm12333424",
@@ -33,7 +121,51 @@
     }
   },
   {
+    "query_string": "https://www.nicovideo.jp/watch/sm12333424",
+    "result": {
+      "permalink": "http://www.nicovideo.jp/watch/sm12333424",
+      "source_host": "www.nicovideo.jp",
+      "source_path": "/watch/sm12333424",
+      "source_id": "sm12333424",
+      "type": "niconico",
+      "to_s": "https://songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424"
+    }
+  },
+  {
+    "query_string": "xyz.nicovideo.jp/watch/sm12333424",
+    "result": {
+      "permalink": "http://www.nicovideo.jp/watch/sm12333424",
+      "source_host": "www.nicovideo.jp",
+      "source_path": "/watch/sm12333424",
+      "source_id": "sm12333424",
+      "type": "niconico",
+      "to_s": "https://songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424"
+    }
+  },
+  {
+    "query_string": "//xyz.nicovideo.jp/watch/sm12333424",
+    "result": {
+      "permalink": "http://www.nicovideo.jp/watch/sm12333424",
+      "source_host": "www.nicovideo.jp",
+      "source_path": "/watch/sm12333424",
+      "source_id": "sm12333424",
+      "type": "niconico",
+      "to_s": "https://songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424"
+    }
+  },
+  {
     "query_string": "http://xyz.nicovideo.jp/watch/sm12333424",
+    "result": {
+      "permalink": "http://www.nicovideo.jp/watch/sm12333424",
+      "source_host": "www.nicovideo.jp",
+      "source_path": "/watch/sm12333424",
+      "source_id": "sm12333424",
+      "type": "niconico",
+      "to_s": "https://songle.jp/songs/www.nicovideo.jp%2Fwatch%2Fsm12333424"
+    }
+  },
+  {
+    "query_string": "https://xyz.nicovideo.jp/watch/sm12333424",
     "result": {
       "permalink": "http://www.nicovideo.jp/watch/sm12333424",
       "source_host": "www.nicovideo.jp",

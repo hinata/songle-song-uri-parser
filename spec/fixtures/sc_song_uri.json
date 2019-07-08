@@ -1,6 +1,61 @@
 [
   {
+    "query_string": "songle.jp/songs/soundcloud.com%2Fartist%2Ftrack",
+    "result": {
+      "permalink": "http://soundcloud.com/artist/track",
+      "source_host": "soundcloud.com",
+      "source_path": "/artist/track",
+      "source_id": "artist/track",
+      "type": "soundcloud",
+      "to_s": "https://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack"
+    }
+  },
+  {
+    "query_string": "//songle.jp/songs/soundcloud.com%2Fartist%2Ftrack",
+    "result": {
+      "permalink": "http://soundcloud.com/artist/track",
+      "source_host": "soundcloud.com",
+      "source_path": "/artist/track",
+      "source_id": "artist/track",
+      "type": "soundcloud",
+      "to_s": "https://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack"
+    }
+  },
+  {
     "query_string": "http://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack",
+    "result": {
+      "permalink": "http://soundcloud.com/artist/track",
+      "source_host": "soundcloud.com",
+      "source_path": "/artist/track",
+      "source_id": "artist/track",
+      "type": "soundcloud",
+      "to_s": "https://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack"
+    }
+  },
+  {
+    "query_string": "https://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack",
+    "result": {
+      "permalink": "http://soundcloud.com/artist/track",
+      "source_host": "soundcloud.com",
+      "source_path": "/artist/track",
+      "source_id": "artist/track",
+      "type": "soundcloud",
+      "to_s": "https://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack"
+    }
+  },
+  {
+    "query_string": "soundcloud.com/artist/track",
+    "result": {
+      "permalink": "http://soundcloud.com/artist/track",
+      "source_host": "soundcloud.com",
+      "source_path": "/artist/track",
+      "source_id": "artist/track",
+      "type": "soundcloud",
+      "to_s": "https://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack"
+    }
+  },
+  {
+    "query_string": "//soundcloud.com/artist/track",
     "result": {
       "permalink": "http://soundcloud.com/artist/track",
       "source_host": "soundcloud.com",
@@ -22,6 +77,39 @@
     }
   },
   {
+    "query_string": "https://soundcloud.com/artist/track",
+    "result": {
+      "permalink": "http://soundcloud.com/artist/track",
+      "source_host": "soundcloud.com",
+      "source_path": "/artist/track",
+      "source_id": "artist/track",
+      "type": "soundcloud",
+      "to_s": "https://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack"
+    }
+  },
+  {
+    "query_string": "www.soundcloud.com/artist/track",
+    "result": {
+      "permalink": "http://soundcloud.com/artist/track",
+      "source_host": "soundcloud.com",
+      "source_path": "/artist/track",
+      "source_id": "artist/track",
+      "type": "soundcloud",
+      "to_s": "https://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack"
+    }
+  },
+  {
+    "query_string": "//www.soundcloud.com/artist/track",
+    "result": {
+      "permalink": "http://soundcloud.com/artist/track",
+      "source_host": "soundcloud.com",
+      "source_path": "/artist/track",
+      "source_id": "artist/track",
+      "type": "soundcloud",
+      "to_s": "https://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack"
+    }
+  },
+  {
     "query_string": "http://www.soundcloud.com/artist/track",
     "result": {
       "permalink": "http://soundcloud.com/artist/track",
@@ -33,7 +121,51 @@
     }
   },
   {
+    "query_string": "https://www.soundcloud.com/artist/track",
+    "result": {
+      "permalink": "http://soundcloud.com/artist/track",
+      "source_host": "soundcloud.com",
+      "source_path": "/artist/track",
+      "source_id": "artist/track",
+      "type": "soundcloud",
+      "to_s": "https://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack"
+    }
+  },
+  {
+    "query_string": "xyz.soundcloud.com/artist/track",
+    "result": {
+      "permalink": "http://soundcloud.com/artist/track",
+      "source_host": "soundcloud.com",
+      "source_path": "/artist/track",
+      "source_id": "artist/track",
+      "type": "soundcloud",
+      "to_s": "https://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack"
+    }
+  },
+  {
+    "query_string": "//xyz.soundcloud.com/artist/track",
+    "result": {
+      "permalink": "http://soundcloud.com/artist/track",
+      "source_host": "soundcloud.com",
+      "source_path": "/artist/track",
+      "source_id": "artist/track",
+      "type": "soundcloud",
+      "to_s": "https://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack"
+    }
+  },
+  {
     "query_string": "http://xyz.soundcloud.com/artist/track",
+    "result": {
+      "permalink": "http://soundcloud.com/artist/track",
+      "source_host": "soundcloud.com",
+      "source_path": "/artist/track",
+      "source_id": "artist/track",
+      "type": "soundcloud",
+      "to_s": "https://songle.jp/songs/soundcloud.com%2Fartist%2Ftrack"
+    }
+  },
+  {
+    "query_string": "https://xyz.soundcloud.com/artist/track",
     "result": {
       "permalink": "http://soundcloud.com/artist/track",
       "source_host": "soundcloud.com",

@@ -1,11 +1,11 @@
-# -*- coding: utf-8 -*-
+#@# vim: set filetype=ruby:
 module ::Songle::SongURI
   class InvalidSongURIError < ::StandardError
     ##
     # @constructor
     #
     def initialize query_string
-      super("'#{ query_string }' isn't song uri.")
+      super("'#{ query_string }' is invalid songle's song uri.")
     end
   end
 end

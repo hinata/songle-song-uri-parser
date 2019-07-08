@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#@# vim: set filetype=ruby:
 require "json"
 
 ::RSpec.describe ::Songle::SongURI do

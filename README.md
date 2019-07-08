@@ -10,7 +10,7 @@ This gem package can parse it.
 
 ### Prerequirements
 
-- ruby 2.x
+- ruby >= 2.3
 
 ### Installation
 
@@ -35,7 +35,7 @@ p song.to_s      #=> "https://songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusi
 
 ### Prerequirements
 
-- ruby 2.x
+- ruby >= 2.3
 
 Install dependenting gem packages using bundler.
 

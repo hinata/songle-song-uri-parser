@@ -1,0 +1,90 @@
+[
+  {
+    "query_string": "songle.jp/songs/songle.jp%2Fuploads%2Fxyz.mp3",
+    "result": {
+      "permalink": "http://songle.jp/uploads/xyz.mp3",
+      "source_host": "songle.jp",
+      "source_path": "/uploads/xyz.mp3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/songle.jp%2Fuploads%2Fxyz.mp3"
+    }
+  },
+  {
+    "query_string": "//songle.jp/songs/songle.jp%2Fuploads%2Fxyz.mp3",
+    "result": {
+      "permalink": "http://songle.jp/uploads/xyz.mp3",
+      "source_host": "songle.jp",
+      "source_path": "/uploads/xyz.mp3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/songle.jp%2Fuploads%2Fxyz.mp3"
+    }
+  },
+  {
+    "query_string": "http://songle.jp/songs/songle.jp%2Fuploads%2Fxyz.mp3",
+    "result": {
+      "permalink": "http://songle.jp/uploads/xyz.mp3",
+      "source_host": "songle.jp",
+      "source_path": "/uploads/xyz.mp3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/songle.jp%2Fuploads%2Fxyz.mp3"
+    }
+  },
+  {
+    "query_string": "https://songle.jp/songs/songle.jp%2Fuploads%2Fxyz.mp3",
+    "result": {
+      "permalink": "http://songle.jp/uploads/xyz.mp3",
+      "source_host": "songle.jp",
+      "source_path": "/uploads/xyz.mp3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/songle.jp%2Fuploads%2Fxyz.mp3"
+    }
+  },
+  {
+    "query_string": "songle.jp/uploads/xyz.mp3",
+    "result": {
+      "permalink": "http://songle.jp/uploads/xyz.mp3",
+      "source_host": "songle.jp",
+      "source_path": "/uploads/xyz.mp3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/songle.jp%2Fuploads%2Fxyz.mp3"
+    }
+  },
+  {
+    "query_string": "//songle.jp/uploads/xyz.mp3",
+    "result": {
+      "permalink": "http://songle.jp/uploads/xyz.mp3",
+      "source_host": "songle.jp",
+      "source_path": "/uploads/xyz.mp3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/songle.jp%2Fuploads%2Fxyz.mp3"
+    }
+  },
+  {
+    "query_string": "http://songle.jp/uploads/xyz.mp3",
+    "result": {
+      "permalink": "http://songle.jp/uploads/xyz.mp3",
+      "source_host": "songle.jp",
+      "source_path": "/uploads/xyz.mp3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/songle.jp%2Fuploads%2Fxyz.mp3"
+    }
+  },
+  {
+    "query_string": "https://songle.jp/uploads/xyz.mp3",
+    "result": {
+      "permalink": "http://songle.jp/uploads/xyz.mp3",
+      "source_host": "songle.jp",
+      "source_path": "/uploads/xyz.mp3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/songle.jp%2Fuploads%2Fxyz.mp3"
+    }
+  }
+]

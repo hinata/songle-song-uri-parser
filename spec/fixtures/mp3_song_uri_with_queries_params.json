@@ -1,0 +1,90 @@
+[
+  {
+    "query_string": "songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3%3Fa%3D1%26b%3D2%26c%3D3",
+    "result": {
+      "permalink": "http://staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+      "source_host": "staff.aist.go.jp",
+      "source_path": "/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3%3Fa%3D1%26b%3D2%26c%3D3"
+    }
+  },
+  {
+    "query_string": "//songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3%3Fa%3D1%26b%3D2%26c%3D3",
+    "result": {
+      "permalink": "http://staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+      "source_host": "staff.aist.go.jp",
+      "source_path": "/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3%3Fa%3D1%26b%3D2%26c%3D3"
+    }
+  },
+  {
+    "query_string": "http://songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3%3Fa%3D1%26b%3D2%26c%3D3",
+    "result": {
+      "permalink": "http://staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+      "source_host": "staff.aist.go.jp",
+      "source_path": "/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3%3Fa%3D1%26b%3D2%26c%3D3"
+    }
+  },
+  {
+    "query_string": "https://songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3%3Fa%3D1%26b%3D2%26c%3D3",
+    "result": {
+      "permalink": "http://staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+      "source_host": "staff.aist.go.jp",
+      "source_path": "/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3%3Fa%3D1%26b%3D2%26c%3D3"
+    }
+  },
+  {
+    "query_string": "staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+    "result": {
+      "permalink": "http://staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+      "source_host": "staff.aist.go.jp",
+      "source_path": "/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3%3Fa%3D1%26b%3D2%26c%3D3"
+    }
+  },
+  {
+    "query_string": "//staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+    "result": {
+      "permalink": "http://staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+      "source_host": "staff.aist.go.jp",
+      "source_path": "/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3%3Fa%3D1%26b%3D2%26c%3D3"
+    }
+  },
+  {
+    "query_string": "http://staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+    "result": {
+      "permalink": "http://staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+      "source_host": "staff.aist.go.jp",
+      "source_path": "/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3%3Fa%3D1%26b%3D2%26c%3D3"
+    }
+  },
+  {
+    "query_string": "https://staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+    "result": {
+      "permalink": "http://staff.aist.go.jp/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+      "source_host": "staff.aist.go.jp",
+      "source_path": "/t.nakano/music/VocaWatcher.Prologue.Miku.mp3?a=1&b=2&c=3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3%3Fa%3D1%26b%3D2%26c%3D3"
+    }
+  }
+]

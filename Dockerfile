@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#@# vim: set filetype=ruby:
 ARG RUBY_VERSION=2.6.0
 
 FROM ruby:${RUBY_VERSION}-alpine

@@ -1,5 +1,8 @@
 # CHANGELOG.md
 
+## v1.1.5 (2019-07-19)
+- Deleted unused gems
+
 ## v1.1.4 (2019-07-08)
 - Fixed minor bugs
 - Supported the private song URI (e.g. "https://songle.jp/uploads/{ID}.mp3")
@@ -9,7 +12,7 @@
 
 ## v1.1.2 (2019-01-31)
 - Changed constractor parameters in `::Songle::SongURI` class
-- Improved about the loading modules
+- Improved about loading modules
 
 ## v1.1.1 (2019-01-26)
 - Improved validation in constractor parameters

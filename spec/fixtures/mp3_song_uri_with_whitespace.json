@@ -1,0 +1,90 @@
+[
+  {
+    "query_string": "songle.jp/songs/he3.magnatune.com%2Fall%2F05-Goodbye%2520Perfectionist-Linda%2520Woods.mp3",
+    "result": {
+      "permalink": "http://he3.magnatune.com/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+      "source_host": "he3.magnatune.com",
+      "source_path": "/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/he3.magnatune.com%2Fall%2F05-Goodbye%2520Perfectionist-Linda%2520Woods.mp3"
+    }
+  },
+  {
+    "query_string": "//songle.jp/songs/he3.magnatune.com%2Fall%2F05-Goodbye%2520Perfectionist-Linda%2520Woods.mp3",
+    "result": {
+      "permalink": "http://he3.magnatune.com/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+      "source_host": "he3.magnatune.com",
+      "source_path": "/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/he3.magnatune.com%2Fall%2F05-Goodbye%2520Perfectionist-Linda%2520Woods.mp3"
+    }
+  },
+  {
+    "query_string": "http://songle.jp/songs/he3.magnatune.com%2Fall%2F05-Goodbye%2520Perfectionist-Linda%2520Woods.mp3",
+    "result": {
+      "permalink": "http://he3.magnatune.com/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+      "source_host": "he3.magnatune.com",
+      "source_path": "/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/he3.magnatune.com%2Fall%2F05-Goodbye%2520Perfectionist-Linda%2520Woods.mp3"
+    }
+  },
+  {
+    "query_string": "https://songle.jp/songs/he3.magnatune.com%2Fall%2F05-Goodbye%2520Perfectionist-Linda%2520Woods.mp3",
+    "result": {
+      "permalink": "http://he3.magnatune.com/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+      "source_host": "he3.magnatune.com",
+      "source_path": "/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/he3.magnatune.com%2Fall%2F05-Goodbye%2520Perfectionist-Linda%2520Woods.mp3"
+    }
+  },
+  {
+    "query_string": "he3.magnatune.com/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+    "result": {
+      "permalink": "http://he3.magnatune.com/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+      "source_host": "he3.magnatune.com",
+      "source_path": "/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/he3.magnatune.com%2Fall%2F05-Goodbye%2520Perfectionist-Linda%2520Woods.mp3"
+    }
+  },
+  {
+    "query_string": "//he3.magnatune.com/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+    "result": {
+      "permalink": "http://he3.magnatune.com/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+      "source_host": "he3.magnatune.com",
+      "source_path": "/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/he3.magnatune.com%2Fall%2F05-Goodbye%2520Perfectionist-Linda%2520Woods.mp3"
+    }
+  },
+  {
+    "query_string": "http://he3.magnatune.com/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+    "result": {
+      "permalink": "http://he3.magnatune.com/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+      "source_host": "he3.magnatune.com",
+      "source_path": "/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/he3.magnatune.com%2Fall%2F05-Goodbye%2520Perfectionist-Linda%2520Woods.mp3"
+    }
+  },
+  {
+    "query_string": "https://he3.magnatune.com/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+    "result": {
+      "permalink": "http://he3.magnatune.com/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+      "source_host": "he3.magnatune.com",
+      "source_path": "/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3",
+      "source_id": null,
+      "type": "mp3",
+      "to_s": "https://songle.jp/songs/he3.magnatune.com%2Fall%2F05-Goodbye%2520Perfectionist-Linda%2520Woods.mp3"
+    }
+  }
+]

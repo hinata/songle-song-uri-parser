@@ -31,12 +31,8 @@ module ::Songle::SongURI
         ::URI.parse("//#{ query_string }")
 
       @source_host = source_uri.host
-      @source_path = source_uri.path
+      @source_path = source_uri.path + (!!source_uri.query ? "?#{ source_uri.query }" : "")
       @source_id   = nil
-
-      if source_uri.query
-        @source_path += "?#{ source_uri.query }"
-      end
     end
 
     ##
@@ -51,10 +47,10 @@ module ::Songle::SongURI
     #
     def to_s
       encoded_source_host =
-        ::URI.encode_www_form_component(self.source_host).gsub("+", "%2520")
+        ::URI.encode_www_form_component(self.source_host).gsub(/[+\s]/, "%2520")
 
       encoded_source_path =
-        ::URI.encode_www_form_component(self.source_path).gsub("+", "%2520")
+        ::URI.encode_www_form_component(self.source_path).gsub(/[+\s]/, "%2520")
 
       return "#{ self.endpoint }#{ encoded_source_host }#{ encoded_source_path }"
     end

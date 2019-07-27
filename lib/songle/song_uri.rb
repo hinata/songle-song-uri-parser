@@ -80,7 +80,7 @@ module ::Songle
       #
       def parse query_string, options = nil
         query_string =
-          ::URI.decode_www_form_component(query_string.to_s)
+          ::URI.decode_www_form_component(query_string.to_s).gsub(/[+\s]/, "%20")
 
         case
         when query_string =~ ::Songle::SongURI::NnSongURI::URI_REGEXP

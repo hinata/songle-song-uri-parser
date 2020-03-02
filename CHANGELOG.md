@@ -1,5 +1,8 @@
 # CHANGELOG.md
 
+## v1.1.7 (2020-03-02 JST)
+- Merged https://github.com/hinata/songle-song-uri-parser/pull/1
+
 ## v1.1.6 (2019-07-27 JST)
 - Resolved it issue, when included the whitespace in the URI (e.g. "https://he3.magnatune.com/all/05-Goodbye%20Perfectionist-Linda%20Woods.mp3")
 

@@ -1,8 +1,10 @@
 # Songle Song URI Parser
 
-## What is a Song URI?
+The Songle Song URI parser is a gem package providing class to handle the Song URI.
 
-A [Song URI](//songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3) is an unique song ID that is managed by the [Songle](//songle.jp).
+## What is Song URI?
+
+The [Song URI](//songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusic%2FVocaWatcher.Prologue.Miku.mp3) is an unique ID of the song that is managed by the [Songle](//songle.jp).
 
 This gem package can parse it.
 
@@ -10,7 +12,7 @@ This gem package can parse it.
 
 ### Prerequirements
 
-- ruby >= 2.3
+- ruby >= 2.4
 
 ### Installation
 
@@ -35,7 +37,7 @@ p song.to_s      #=> "https://songle.jp/songs/staff.aist.go.jp%2Ft.nakano%2Fmusi
 
 ### Prerequirements
 
-- ruby >= 2.3
+- ruby >= 2.4
 
 Install dependenting gem packages using bundler.
 

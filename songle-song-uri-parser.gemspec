@@ -9,8 +9,14 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Takahiro INOUE"]
   spec.email         = ["takahiro.inoue@aist.go.jp"]
 
-  spec.summary       = %q{A Song URI parser for the Songle}
-  spec.description   = %q{A Song URI parser for the Songle}
+  spec.summary       = %w{
+    The Songle Song URI parser is a gem package providing class to handle the Song URI.
+  }.join(" ")
+  spec.description   = %w{
+    The Songle Song URI parser is a gem package providing class to handle the Song URI.
+    The Song URI is an unique ID of the song that is managed by the Songle.
+    This gem package can parse it.
+  }.join(" ")
   spec.homepage      = "https://github.com/hinata/songle-song-uri-parser"
   spec.license       = "MIT"
 
@@ -22,6 +28,8 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+
+  spec.required_ruby_version = "~> 2.4"
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
